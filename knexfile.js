@@ -3,7 +3,7 @@ module.exports = {
     client: 'pg',
     connection: 'postgres://localhost/b2b-dev'
   },
-  test: {}
+  test: {},
   production: {
     client: 'pg',
     connection: process.env.DATABASE_URL
